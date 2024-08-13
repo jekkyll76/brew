@@ -70,7 +70,7 @@ end
 
 # shared gems (used by multiple groups)
 group :audit, :bump_unversioned_casks, :livecheck, optional: true do
-  gem "rexml", ">= 3.3.2", require: false
+  gem "rexml", ">= 3.3.3", require: false
 end
 
 # vendored gems (no group)
